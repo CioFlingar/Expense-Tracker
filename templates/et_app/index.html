@@ -1,0 +1,30 @@
+{% extends 'et_app/base.html' %}
+{% block body %}
+<h1>This is an index page</h1>
+
+<form class="shadow-lg m-10 rounded-lg" method="post">
+    {% csrf_token %}
+    <div class="form-container px-10 py-10 flex">
+        <div>
+            <div class="mb-5">
+                <label>Expense Name</label>
+            </div>
+            <div class="border"> {{ expense_form.name }} </div>
+        </div>
+
+        <div>
+            <div class="mb-5">
+                <label>Expense Amount</label>
+            </div>
+            <div class="border"> {{ expense_form.amount }} </div>
+        </div>
+
+        <div>
+            <div class="mb-5">
+                <label>Expense Category</label>
+            </div>
+            <div class="border"> {{ expense_form.category }} </div>
+        </div>
+    </div>
+</form>
+{% endblock %}
