@@ -260,6 +260,9 @@
   .px-20 {
     padding-inline: calc(var(--spacing) * 20);
   }
+  .px-72 {
+    padding-inline: calc(var(--spacing) * 72);
+  }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
   }
@@ -280,6 +283,9 @@
   .font-semibold {
     --tw-font-weight: var(--font-weight-semibold);
     font-weight: var(--font-weight-semibold);
+  }
+  .text-green-500 {
+    color: var(--color-green-500);
   }
   .text-white {
     color: var(--color-white);
