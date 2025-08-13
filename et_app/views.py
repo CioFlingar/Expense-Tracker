@@ -30,7 +30,6 @@ def index(request):
     daily_sums = Expense.objects.filter().values('date').order_by('date').annotate(sum=Sum("amount"))
 
     categorical_sums = Expense.objects.filter().values("category").order_by('category').annotate(sum=Sum('amount'))
-    print(categorical_sums)
 
 
     expense_form = ExpenseForm()
