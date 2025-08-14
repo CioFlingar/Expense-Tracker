@@ -127,10 +127,20 @@ Now open your browser and visit: **`http://127.0.0.1:8000`**
 
 ---
 
+## Gif
+
+<p align="center">
+  <img src="static/images/sample/sampG.gif" alt="Demo GIF" width="800"
+       style="border: 12px solid black; padding: 8px; background: silver; border-radius: 8px;"/>
+</p>
+
 ## 📸 Screenshots
 
->
-
+<p align="center" style="margin:0; padding:0;">
+  <img src="static/images/sample/samp1.png" alt="Image 1" width="800" style="margin:0; padding:0; display:block;"/>
+  <img src="static/images/sample/samp2.png" alt="Image 2" width="800" style="margin:0; padding:0; display:block;"/>
+  <img src="static/images/sample/samp3.png" alt="Image 3" width="800" style="margin:0; padding:0; display:block;"/>
+</p>
 ---
 
 ## 🔮 Future Improvements
