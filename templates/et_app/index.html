@@ -76,21 +76,21 @@
 <div class="flex">
     <div class="shadow-lg ml-10 rounded-lg">
         <h1 class="ml-10 font-bold text-gray-500">Last 365 Days</h1>
-        <h1 class="ml-10 my-5 text-2xl text-green-500 font-bold">
+        <h1 class="mx-10 my-5 text-2xl text-green-500 font-bold">
             ${{ yearly_sum.amount__sum | intcomma }}
         </h1>
     </div>
 
     <div class="shadow-lg ml-10 rounded-lg">
         <h1 class="ml-10 font-bold text-gray-500">Last 30 Days</h1>
-        <h1 class="ml-10 my-5 text-2xl text-green-500 font-bold">
+        <h1 class="mx-10 my-5 text-2xl text-green-500 font-bold">
             ${{ monthly_sum.amount__sum | intcomma }}
         </h1>
     </div>
 
     <div class="shadow-lg ml-10 rounded-lg">
         <h1 class="ml-10 font-bold text-gray-500">Last 7 Days</h1>
-        <h1 class="ml-10 my-5 text-2xl text-green-500 font-bold">
+        <h1 class="mx-10 my-5 text-2xl text-green-500 font-bold">
             ${{ weekly_sum.amount__sum | intcomma }}
         </h1>
     </div>
@@ -138,13 +138,13 @@
 </div>
 
 <div class="flex">
-    <div class="w-1/2 shadow-lg ml-10">
+    <div class="w-1/2 h-1/2 shadow-lg">
         <h1 class="m-10">Expense spread across categories</h1>
         <canvas id="myChart" class="m-10"></canvas>
     </div>
     <div class="w-1/2 shadow-lg ml-10">
         <h1 class="m-10">Daily Expense Sum</h1>
-        <canvas id="myChart2" class="m-10"></canvas>
+        <canvas id="myChart2" class="m-10 mt-40"></canvas>
     </div>
 </div>
 
